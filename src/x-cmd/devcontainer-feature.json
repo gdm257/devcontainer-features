@@ -1,8 +1,8 @@
 {
-    "name": "nixpacks",
-    "id": "nixpacks",
+    "name": "x-cmd",
+    "id": "x-cmd",
     "version": "1.0.0",
-    "description": "App source + Nix packages + Docker = Image",
+    "description": "A compact yet powerful command-line toolkit",
     "options": {},
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils"
