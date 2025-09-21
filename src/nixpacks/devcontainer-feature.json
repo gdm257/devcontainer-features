@@ -1,0 +1,10 @@
+{
+    "name": "nixpacks",
+    "id": "nixpacks",
+    "version": "1.0.0",
+    "description": "nixpacks feature",
+    "options": {},
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
