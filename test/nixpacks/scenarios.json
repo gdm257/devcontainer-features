@@ -1,0 +1,9 @@
+{
+    "nixpacks": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "nixpacks": {
+            }
+        }
+    }
+}
