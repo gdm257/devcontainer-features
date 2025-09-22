@@ -16,7 +16,6 @@
 #
 # Thus, the value of all options will fall back to the default value in 
 # the Feature's 'devcontainer-feature.json'.
-# For the 'x-cmd' feature, that means the default favorite greeting is 'hey'.
 #
 # These scripts are run as 'root' by default. Although that can be changed
 # with the '--remote-user' flag.
@@ -31,6 +30,9 @@
 #                   /path/to/this/repo
 
 set -e
+
+echo "Current user '$(whoami)': $(id)"
+echo "Home directory: $HOME"
 
 # Optional: Import test library bundled with the devcontainer CLI
 # See https://github.com/devcontainers/cli/blob/HEAD/docs/features/test.md#dev-container-features-test-lib
