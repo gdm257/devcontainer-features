@@ -1,7 +1,7 @@
 
 # nixpacks (nixpacks)
 
-nixpacks feature
+App source + Nix packages + Docker = Image
 
 ## Example Usage
 
